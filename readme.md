@@ -62,6 +62,8 @@ Modify the code according to your requirements
 
 Use kubectl to apply the Kubernetes configuration files to your cluster:
 
+Navigate to target folder and deploy the all objects
+
 		cd backend
 		kubectl apply -f .
 
@@ -70,6 +72,8 @@ Monitor the deployment status and check the running pods,services...etc.:
 		kubectl get ns
 		kubectl get po -n <namespace>
 		kubectl get svc -n <namespace>
+		
+Navigate to target folder and deploy the all objects
 
 		cd frontend
 		kubectl apply -f .
