@@ -1,0 +1,8 @@
+# https://kubernetes.io/docs/concepts/configuration/configmap/
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: myconfig
+  namespace: docker-frontend
+data:
+  key_value: "http://service-app.docker-image"
